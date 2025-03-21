@@ -1,0 +1,77 @@
+/* Hero Section */
+.hero-section {
+  background-image: url(/public/image.png);
+  background-size: cover;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-section .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Sports Cards */
+.sport-card {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sport-card:hover {
+  transform: scale(1.05);
+}
+
+.sport-card .card-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 2px solid #ddd;
+}
+
+/* Button Styling */
+button {
+  border-radius: 8px !important;
+}
+
+/* Gradient Effect for Header */
+.text-gradient {
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Card Styling */
+.custom-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 12px;
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
